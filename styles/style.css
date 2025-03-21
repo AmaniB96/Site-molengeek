@@ -1,0 +1,50 @@
+body{width: 100vw;
+     height: 98vh;
+     margin: 0;}
+
+section{margin-top: 0;
+        padding-top: 0;}
+
+.violet{
+    background-color: #9b009d;
+    width: 100vw;
+    height: 5vh;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav{display: flex;
+    justify-content: space-between;
+   }
+
+#icone{
+    height: 4.5vh;
+    width: 2.5vw;
+}
+
+#logo{
+    width:90px;
+    height:50px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 70px;
+    border-right: solid 1px rgb(227, 222, 222);
+    border-bottom: solid 1px rgb(227, 222, 222) ;
+}
+
+
+#navbar{display: flex;
+        align-items: center;
+        }
+
+#listemenu{
+        display: flex;
+        padding: 0;
+        gap: 30px;
+} 
+
+
+#cowork{
+    border-left: solid 1px rgb(227, 222, 222);
+    border-bottom: solid 1px rgb(227, 222, 222) ;
+}
