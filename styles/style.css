@@ -11,15 +11,28 @@ section{margin-top: 0;
     height: 5vh;
     margin-top: 0;
     padding-top: 0;
+    display: flex;
 }
+
+#form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+#form p{color: white;}
 
 nav{display: flex;
     justify-content: space-between;
+    border-bottom: solid 1px rgb(227, 222, 222)
    }
 
 #icone{
     height: 4.5vh;
     width: 2.5vw;
+    filter: brightness(200%);
+    clip: auto;
 }
 
 #logo{
@@ -28,13 +41,14 @@ nav{display: flex;
     padding: 20px;
     padding-left: 50px;
     padding-right: 70px;
-    border-right: solid 1px rgb(227, 222, 222);
-    border-bottom: solid 1px rgb(227, 222, 222) ;
 }
 
-
+#logobox{
+    border-right: solid 1px rgb(227, 222, 222);
+}
 #navbar{display: flex;
         align-items: center;
+        border-bottom: solid 1px rgb(227, 222, 222);
         }
 
 #listemenu{
@@ -45,6 +59,8 @@ nav{display: flex;
 
 
 #cowork{
+    display: flex;
+    align-items: center;
     border-left: solid 1px rgb(227, 222, 222);
-    border-bottom: solid 1px rgb(227, 222, 222) ;
+    padding: 10px;
 }
