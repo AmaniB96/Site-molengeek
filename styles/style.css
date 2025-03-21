@@ -60,7 +60,6 @@ nav{display: flex;
 }
 #navbar{display: flex;
         align-items: center;
-        border-bottom: solid 1px rgb(227, 222, 222);
         }
 
 #listemenu{
@@ -88,4 +87,25 @@ nav{display: flex;
 
 hr{
     width: 50px;
+    height: 0.5px;
+    background-color: #9b009d;
 }
+
+.corps{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+}
+
+.corps p{
+    margin-top: 50px;
+}
+
+li::marker{
+    color:#9b009d;
+}
+
+#list{line-height: 2.5;}
+
+.section
