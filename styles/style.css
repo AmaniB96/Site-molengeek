@@ -77,3 +77,15 @@ nav{display: flex;
     padding: 30px;
 }
 
+#titre {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 50px;
+}
