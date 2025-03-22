@@ -114,6 +114,7 @@ font-size:30px;
 display:flex;
 justify-content: center;}
 
-footer{height: 45vh;
+footer{margin-top:50px;
+    height: 45vh;
        width: 100vw;
        background-color: #363636;}
