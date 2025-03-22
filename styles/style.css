@@ -115,6 +115,24 @@ display:flex;
 justify-content: center;}
 
 footer{margin-top:50px;
-    height: 45vh;
+       height: 45vh;
        width: 100vw;
-       background-color: #363636;}
+       background-color: #363636;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;}
+
+.reseaux{display: flex;
+         justify-content: space-evenly;
+         align-items: center;}
+
+#fb{height: 25px;
+    width: 25px;
+    border: solid white;
+    border-radius: 50%;
+    display: flex;           /* Add this */
+    justify-content: center; /* Add this */
+    align-items: center;     /* Add this */
+    }
+
+footer p{color: white;}
