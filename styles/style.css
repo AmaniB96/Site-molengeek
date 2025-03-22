@@ -48,10 +48,11 @@ nav{display: flex;
    }
 
 #icone{
-    height: 4.5vh;
-    width: 2.5vw;
+    height: 6vh;
+    width: 3vw;
     filter: brightness(200%);
-    clip: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
+
 }
 
 #logo{
