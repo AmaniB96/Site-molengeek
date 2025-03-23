@@ -187,3 +187,13 @@ footer span{color: white;
     left: 0;
     bottom: -5px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9b009d;
+    transition: color 0.3s ease;
+}
