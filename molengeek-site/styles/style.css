@@ -197,3 +197,6 @@ a:hover {
     color: #9b009d;
     transition: color 0.3s ease;
 }
+
+footer a{color: white;
+    text-decoration: none;}
